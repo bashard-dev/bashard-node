@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: mailto:support@bashard.com
+    about: Report vulnerabilities privately; do not include credentials.
+  - name: Protocol documentation
+    url: https://bashard.com/docs
+    about: Read protocol behavior and operational boundaries.

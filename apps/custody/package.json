@@ -1,0 +1,19 @@
+{
+  "name": "@bashard/custody",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "NODE_ENV=production tsx run.mjs",
+    "test": "tsx --test *.test.mjs"
+  },
+  "dependencies": {
+    "@bashard/core": "workspace:*",
+    "@google-cloud/storage": "8.4.0",
+    "ethers": "6.17.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}

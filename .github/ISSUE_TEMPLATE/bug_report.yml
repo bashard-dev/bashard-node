@@ -1,0 +1,18 @@
+name: Bug report
+description: Report a reproducible problem without credentials or private data.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps and version
+      description: Never include keys, wallet exports, tokens or customer files.
+    validations:
+      required: true

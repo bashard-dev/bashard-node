@@ -1,0 +1,37 @@
+{
+  "chainId": 56,
+  "network": "bsc",
+  "token": "0x86d2371d508c3f39cd4dce58d0ee406250d57777",
+  "owner": "0x4eC4F7ffa41EB599887B9b26B68945ce762665dF",
+  "treasury": "0xA09B39184a166675bdCA7BECa0090DDd1AA9533F",
+  "epochSeconds": 86400,
+  "committeeSize": 20,
+  "pricePerMBEpoch": "100000000000000",
+  "minSelfStake": "1000000000000000000000",
+  "staking": "0x23E21D9b8Ecc71fF0452A1fb19ca92fBF0834762",
+  "bashard": "0xA1a63761DDfA41974DFBC0C2600bc25b2D872343",
+  "deployBlock": 129869371,
+  "deployedAt": "2026-10-26T08:57:08.811Z",
+  "transactions": [
+    {
+      "name": "deploy_Staking",
+      "hash": "0x250fcd625746c80b90c55be744dd37fa71a8fd4a85392a5546bc488c0a2a434d"
+    },
+    {
+      "name": "deploy_Bashard",
+      "hash": "0xad773fc6e2eb850da0e5fafeeb210d17f7732d72f84e1a863068632663d30f83"
+    },
+    {
+      "name": "wire_staking_core",
+      "hash": "0xe40dc073d04af42ff1e692c63f62985287d9cb79257131abad2e550ea8d7661f"
+    },
+    {
+      "name": "transfer_staking_ownership",
+      "hash": "0xa88fab9f9d96ec00c6aa518ec11aae2c7b10dcfb186afcb197e5b271a80cfa13"
+    },
+    {
+      "name": "transfer_core_ownership",
+      "hash": "0xa52e76979f8b0f5dad4560fd952e4387fed8f03015273c74de37a4bbc3fd87bc"
+    }
+  ]
+}

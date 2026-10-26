@@ -1,0 +1,24 @@
+{
+  "name": "bashard-node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Bashard storage operators, cloud-backed custody, a read-only chain indexer and verifiable shard-serving infrastructure.",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.28.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "pnpm -r --if-present run typecheck",
+    "test": "pnpm --filter @bashard/core test && pnpm --filter @bashard/custody test",
+    "start:cloud": "pnpm --filter @bashard/custody start",
+    "start:disk": "pnpm --filter @bashard/node start",
+    "start:indexer": "pnpm --filter @bashard/indexer start"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.10.0"
+  }
+}
